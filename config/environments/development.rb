@@ -30,6 +30,7 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
+  #I ADDED THIS----------------------------------------
   # config/environments/development.rb
   config.active_storage.service = :cloudinary
 
