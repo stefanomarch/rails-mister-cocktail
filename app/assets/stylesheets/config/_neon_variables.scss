@@ -1,0 +1,19 @@
+
+$light-color: #d706ab;
+$light-offset: 1px;
+$light-diffusion: 1px;
+$animation-duration: 5s;
+$animation-steps: (
+  0%: on,
+  3%: off,
+  5%: on,
+  8%: off,
+  11%: on,
+  30%: off,
+  50%: on,
+  52%: off,
+  55%: on,
+  60%: off,
+  63%: on,
+  100%: off
+);

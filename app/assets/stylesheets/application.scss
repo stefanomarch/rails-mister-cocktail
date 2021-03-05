@@ -2,6 +2,7 @@
 @import "config/fonts";
 @import "config/colors";
 @import "config/bootstrap_variables";
+@import "config/neon_variables";
 
 // External libraries
 @import "bootstrap/scss/bootstrap";
@@ -11,3 +12,63 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.neon {
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+.whole{
+  display:flex;
+  justify-content:center;
+  text-align: center;
+  flex-direction:column;
+}
+
+.title{
+  margin: 3rem auto 3rem;
+}
+.border-neon{
+  border-radius: 5px;
+  border: 2px solid $light-color;
+}
+
+.cocktail-card{
+  max-width:1200px;
+  display:flex;
+  justify-content:space-between;
+  margin-bottom: 3rem;
+  .dose-card{
+  width:500px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 1rem;
+}
+}
+
+.doses-container{
+  display:flex;
+  justify-content:space-between;
+  flex-direction:column;
+  align-items:center;
+}
+// a{
+//   color:white;
+//   text-decoration: none
+// }
+// a:hover{
+//   color:white;
+//   opacity:0.6;
+//   text-decoration: none
+// }
+
