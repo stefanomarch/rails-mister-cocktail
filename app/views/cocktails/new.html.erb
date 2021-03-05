@@ -2,9 +2,9 @@
 <div class="container">
   <h1 class="title">Create a cocktail</h1>
 
-    <div class="task-card">
       <%= simple_form_for(@cocktail) do |f| %>
       <%= f.input :name%>
+      <%= f.input :photo, as: :file %>
       <%= f.submit "create cocktail", class: "btn btn-primary"%>
       <% end %>
     </div>
