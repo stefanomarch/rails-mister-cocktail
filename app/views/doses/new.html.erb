@@ -1,0 +1,6 @@
+<%= simple_form_for [@cocktail,@dose], url: cocktail_doses_path  do |f| %>
+    <%= f.association :ingredient %>
+    <%= f.input :description %>
+    <div class="btn my-5 btn-light">
+    <%= f.button :submit %>
+    <% end %>
